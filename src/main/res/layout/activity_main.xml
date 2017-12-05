@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/rootll">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/logolightblue"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+            <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="26sp"
+                    android:layout_gravity="center"
+                    android:id="@+id/apptitle"/>
+            </FrameLayout>
+    </android.support.v7.widget.Toolbar>
+    <android.support.design.widget.TabLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/logolightblue"
+        android:id="@+id/tablayout"/>
+
+
+    <android.support.v4.view.ViewPager
+    android:layout_height="0dp"
+        android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:id="@+id/viewpager">
+    </android.support.v4.view.ViewPager>
+
+
+
+</LinearLayout>

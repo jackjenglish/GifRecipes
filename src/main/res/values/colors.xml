@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#c4c2c2</color>
+    <color name="navy">#212121</color>
+    <color name="red">#e51d1d</color>
+    <color name="background">#bad2d5</color>
+    <color name="black">#000000</color>
+    <color name="dark1">#3d3737</color>
+    <color name="iconColordark">#3f3b3b</color>
+    <color name="tagsBoxColor">#c4c2c2</color>
+    <color name="tagsTextColor">#212121</color>
+    <color name="fragRecipeBackground">#f3f1f1</color>
+    <color name="heartFill">#d50202</color>
+    <color name="myColorPrimary">#7ac7c5</color>
+    <color name="logolightred">#e6575b</color>
+    <color name="logolightblue">#7ac7c5</color>
+    <color name="iconColor">#ffffff</color>
+    <color name="darkText">#282828</color>
+</resources>
